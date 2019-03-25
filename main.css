@@ -1,0 +1,29 @@
+/* Ref:  http://www.w3schools.com/css/css_syntax.asp */
+
+body { /* General style rules for the body section */
+	background-color:black;
+	background-image: url(images/images.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%
+}
+body {
+  background-image: url(images/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 { /* Matches elements with h3 tag */
+	color: white;
+}
+
+#SimpleDiv { /* Matches element with id=SimpleDiv */
+	background-color: gray;
+
+	color: hotpink;
+
+
+	border-style: solid groove;
+  border-width: 5px;
+	border-color: green;
+}
